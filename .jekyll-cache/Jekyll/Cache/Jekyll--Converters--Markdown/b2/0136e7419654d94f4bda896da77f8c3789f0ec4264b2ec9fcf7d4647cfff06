@@ -1,0 +1,135 @@
+I"<h1 id="lab-1-environment-setup">Lab 1: Environment Setup</h1>
+
+<h2 id="introduction">Introduction</h2>
+<p>In this lab, we will focus on configuring our environment using an IDE and the Checkmarx plugin.  While Checkmarx supports multiple IDEs, for these labs we will be leverage Microsoft Visual Studio Code, as it is free and commonly used.  Checkmarx has integrated plugins with the following IDEs:</p>
+
+<ul>
+  <li>Eclipse</li>
+  <li>IntelliJ</li>
+  <li>Visual Studio</li>
+  <li>VS Code</li>
+</ul>
+
+<p>To learn more, checkout <a href="https://checkmarx.com/why-checkmarx/integrations/checkmarx-integrations-with-ides/">Checkmarx Integrations with Popular IDEs</a></p>
+
+<h2 id="install-vs-code">Install VS Code</h2>
+<p>The first step is to install VS Code, if you don’t already have it installed.</p>
+
+<p class="note">If you already have VS Code installed, you can skip this section. When we are done with the lab, you can always uninstall/disable the Checkmarx plugin</p>
+
+<ol>
+  <li>Navigate to <a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a> to download the Visual Studio Code installer for your operating system.</li>
+  <li>Install VS Code on your machine</li>
+</ol>
+
+<p><img src="./assets/images/vscode_ubuntu_install.png" alt="Install VS Code" title="VS Code Install" /></p>
+
+<h2 id="install-the-checkmarx-plugin">Install the Checkmarx Plugin</h2>
+<p>Once VS Code is installed, we need to install the Checkmarx plugin. The Visual Studio Code Extension is available on the <a href="https://marketplace.visualstudio.com/items?itemName=checkmarx.ast-results">Visual Studio Code marketplace</a>. You can initiate the installation directly from the Visual Studio Code console.</p>
+
+<ol>
+  <li>Open VS Code</li>
+  <li>Within VS Code, click the Extensions Icon</li>
+  <li>
+    <p>Type “Checkmarx” in the search prompt, then click <strong>Install</strong> for that extension
+ <img src="./assets/images/vscode_extensions.png" alt="Install Checkmarx Plugin" title="Checkmarx VX Code Plugin" /></p>
+
+    <p class="note">Ensure you select the Plugin entitled “Checkmarx,” not Checkmarx SAST x.x</p>
+  </li>
+  <li>
+    <p>The Checkmarx extension is installed and the Checkmarx icon appears in the left-side navigation panel</p>
+
+    <p><img src="./assets/images/cx_plugin_installed.png" alt="Checkmarx Plugin Installed" title="Checkmarx Plugin Installed" /></p>
+  </li>
+</ol>
+
+<h2 id="configure-the-checkmarx-plugin">Configure the Checkmarx Plugin</h2>
+<ol>
+  <li>
+    <p>In the VS Code console, click on the Checkmarx extension icon and then click on the Open settings button.
+The Checkmarx Settings form opens.
+ <img src="./assets/images/cx_plugin_config.png" alt="Configure Checkmarx Plugin" title="Configure Checkmarx Plugin" /></p>
+  </li>
+  <li>
+    <p>In the Checkmarx AST results section, for Base Uri, enter the following details:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th style="text-align: left">Item</th>
+          <th style="text-align: left">Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: left">Checkmarx AST: Api Key</td>
+          <td style="text-align: left">&lt;provided by proctor&gt;</td>
+        </tr>
+        <tr>
+          <td style="text-align: left">Checkmarx AST: Base Auth Uri</td>
+          <td style="text-align: left">https://deu.iam.checkmarx.net</td>
+        </tr>
+        <tr>
+          <td style="text-align: left">Checkmarx AST: Base Uri</td>
+          <td style="text-align: left">https://deu.ast.checkmarx.net</td>
+        </tr>
+        <tr>
+          <td style="text-align: left">Checkmarx AST: Tenant</td>
+          <td style="text-align: left">devworkshop-canary</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <p>Once entered, the Checkmarx plugin will authenticate to the Checkmarx One tenant</p>
+  </li>
+</ol>
+
+<h2 id="connect-to-a-project">Connect to a project</h2>
+
+<ol>
+  <li>
+    <p>Mouse-over the <strong>Project:</strong> field in the left pane, click the pencil icon, then select the project name <strong>cxworkshops/totallysecureapp</strong> that appears in the middle search bar</p>
+
+    <p><img src="./assets/images/cx_select_project.png" alt="Select Project" title="Select the Project" /></p>
+  </li>
+  <li>
+    <p>Mouse-over the <strong>Branch:</strong> field in the left pane, click the pencil icon, then select the branch <strong>master</strong> that appears in the middle search bar</p>
+
+    <p><img src="./assets/images/cx_select_branch.png" alt="Select Branch" title="Select a branch" /></p>
+  </li>
+  <li>
+    <p>The Checkmarx Plugin is now configured and you should see scan results appear in the left pane</p>
+
+    <p><img src="./assets/images/cx_scan_results.png" alt="Configuration Finished" title="Configuration Finished" /></p>
+  </li>
+</ol>
+
+<h2 id="clone-the-project-to-your-local-machine">Clone the project to your local machine</h2>
+<ol>
+  <li>
+    <p>Clone our example scanned project to your local machine.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> git clone https://github.com/cxworkshops/totallysecureapp.git
+</code></pre></div>    </div>
+
+    <p class="note">You will need <strong>git</strong> installed on your local machine if it is not already installed. You can use <a href="https://github.com/git-guides/install-git">this guide </a> to see the steps for your operating system</p>
+  </li>
+  <li>
+    <p>Within VS Code, select File &gt; Open Folder, and select the directory totallysecureapp.</p>
+  </li>
+  <li>
+    <p>You may be prompted by VS Code asking if you trust the developers. We will not be executing any of this projects code and will just be reviewing the source, so you can safely accept. Once you complete the labs, you can safely delete the project.</p>
+
+    <p><img src="./assets/images/vscode_trust.png" alt="VS Code Trust Project" title="VS Code Trust Project" /></p>
+  </li>
+</ol>
+
+<h2 id="key-takeaways">Key Takeaways</h2>
+<ul>
+  <li>Checkmarx has IDE plugins for all major IDEs</li>
+  <li>The Checkmarx One VS Code plugin is available within the Visual Studio Marketplace and is distinct from the Checkmarx SAST plugin</li>
+  <li>The Checkmarx One VS Code plugin can be connected to a Checkmarx One instance by configuring four fields</li>
+  <li>Checkmarx Scan results can be reviewed all within the IDE</li>
+</ul>
+:ET

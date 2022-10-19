@@ -21,10 +21,6 @@ The first step is to install VS Code, if you don't already have it installed.
 {: .note }
 If you already have VS Code installed, you can skip this section. When we are done with the lab, you can always uninstall/disable the Checkmarx plugin
 
-{: .highlight }
-A paragraph
-
-
 1. Navigate to [https://code.visualstudio.com/download](https://code.visualstudio.com/download) to download the Visual Studio Code installer for your operating system.
 2. Install VS Code on your machine
 
