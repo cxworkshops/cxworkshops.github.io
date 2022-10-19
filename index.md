@@ -15,5 +15,5 @@ When attending a virtual or in-person workshop, the proctor will provide an temp
 
 To register for a virtual developer workshop, you can use the following links:
 
-- [Americas/EMEA](https://info.checkmarx.com)
-- [APAC](https://info.checkmarx.com)
+- [Americas/EMEA](https://info.checkmarx.com/en/wb/na/virtual-developer-workshop)
+- [APAC](https://info.checkmarx.com/en/wb/apac/virtual-developer-workshop)
