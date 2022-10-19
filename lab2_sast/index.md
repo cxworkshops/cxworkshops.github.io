@@ -20,8 +20,7 @@ In addition to presets, Checkmarx SAST supports the ability to customize queries
 # Reviewing SAST Results
 1. Within the VS Code Checkmarx plugin, expand the latest Scan result.
 
-2. Click the __M__, __L__, and __I__ icons to filter out everything other than the __HIGH__ results
-and select the scan result __Reflected XSS All Clients (/OpenRedirectController.java:32)__.
+2. Click the __M__, __L__, and __I__ icons to filter out everything other than the __HIGH__ results and select the scan result __Reflected XSS All Clients (/OpenRedirectController.java:32)__.
 
     ![SAST Filter](./assets/images/sastfilter.png "SAST Filter")
 

@@ -34,10 +34,10 @@ SCS results are included in the Checkmarx SCA scan engine.  Within the Checkmarx
 
     {: .note }
     Note that to date, unlike vulnerabilities where we have a common standard of CVE, there is no standardized universal ID for malicious packages. For example, IDs of the same incident:
-    - cx-2021-b8833-be2146 (Checkmarx)
-    - SNYK-JS-RC-1911120 (Snyk)
-    - sonatype-2021-1696 (Sonatype)
-    - GHSA-g2q5-5433-rhrf (GitHub)
+        - cx-2021-b8833-be2146 (Checkmarx)
+        - SNYK-JS-RC-1911120 (Snyk)
+        - sonatype-2021-1696 (Sonatype)
+        - GHSA-g2q5-5433-rhrf (GitHub)
 
 3. Per the malicious package description, we can see this is a malicious package and is using the __Typo Squatting__ attack.  The package creators are hoping that a developer mistypes "moment" and accidentally imports their package instead, which includes a malicious method that deletes the inner HTML body and crashes the app.  We can fix this malicious package by clicking on the Vulnerable package path which links to package.json and changing the package name from __momnet__ to __moment__:
 
