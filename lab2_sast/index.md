@@ -22,7 +22,7 @@ In addition to presets, Checkmarx SAST supports the ability to customize queries
 
 2. Click the __M__, __L__, and __I__ icons to filter out everything other than the __HIGH__ results and select the scan result __Reflected XSS All Clients (/OpenRedirectController.java:32)__.
 
-    ![SAST Filter](./assets/images/sastfilter.png "SAST Filter")
+    ![SAST Filter](./assets/images/sast_filter.png "SAST Filter")
 
 3. Expand the __sast > HIGH__ menu to review the SAST scan results
 4. Select the __SQL Injection (/SQLInjectionController.java:30)__ result

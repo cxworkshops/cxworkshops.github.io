@@ -15,6 +15,9 @@ In this lab, we will focus on configuring our environment using an IDE and the C
 
 To learn more, checkout [Checkmarx Integrations with Popular IDEs](https://checkmarx.com/why-checkmarx/integrations/checkmarx-integrations-with-ides/)
 
+{: .warning }
+For these labs, we are using a known vulnerable Java project based heavily on [EasyBuggy](https://github.com/k-tamura/easybuggy) to demonstrate vulnerability detection and remediation capabilities.  Note that if this application is run, this Java application can result in system crashes as a result of memory leaks, deadlock, JVM crashes, etc.  Because Checkmarx scan source code, there is no reason or need to run this project and __it is not recommended to do so__. If you do wish to run the project, do so at your own risk. It is HIGHLY recommended you do so in a sandbox environment (e.g. within a VM)
+
 ## Install VS Code
 The first step is to install VS Code, if you don't already have it installed.
 
