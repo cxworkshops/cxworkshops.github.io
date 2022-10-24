@@ -17,7 +17,7 @@ Out-of-the-box, SAST on Checkmarx One uses an optimized preset.  This preset con
 
 In addition to presets, Checkmarx SAST supports the ability to customize queries, allowing organizations to add or modify queries to help reduce false positives, add queries for custom sanitizers, or to resolve false negatives.
 
-# Reviewing SAST Results
+## Reviewing SAST Results
 1. Within the VS Code Checkmarx plugin, expand the latest Scan result.
 
 2. Click the __M__, __L__, and __I__ icons to filter out everything other than the __HIGH__ results and select the scan result __Reflected XSS All Clients (/OpenRedirectController.java:32)__.
@@ -46,7 +46,7 @@ In addition to presets, Checkmarx SAST supports the ability to customize queries
     ![SQL Injection Code Sample](./assets/images/sqli_code_sample.png "SQL Injection Code Sample")
 
 
-# Triaging Results
+## Triaging Results
 While Checkmarx SAST can identify vulnerabilities in source code by validating that sanitizers are in place since it has visibility into data flow, it is relatively limited in its ability to detect control flow based validation.  Perhaps we have validation within our application that we know will ensure our code is not subject to a vulnerability. We have the ability to triage results from within the IDE where we can mark them as "not exploitable" so they do not get returned upon future scans
 
 1. Select any one of the __Reflected XSS All Clients__ results.
@@ -65,7 +65,7 @@ While Checkmarx SAST can identify vulnerabilities in source code by validating t
 
 
 
-# Key Takeaways
+## Key Takeaways
 - Checkmarx SAST scans source code rather than binaries, allowing dev teams to iteratively scan code as they build
 - Checkmarx One integrates with all major SCMs and can automatically trigger scans on push and pull request events
 - SAST results are viewable directly within the IDE, so you don't have to navigate to a different tool or site to review results

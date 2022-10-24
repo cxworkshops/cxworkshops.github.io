@@ -51,7 +51,7 @@ Once VS Code is installed, we need to install the Checkmarx plugin. The Visual S
 The Checkmarx Settings form opens.
     ![Configure Checkmarx Plugin](./assets/images/cx_plugin_config.png "Configure Checkmarx Plugin")
 
-2. In the Checkmarx AST results section, for Base Uri, enter the following details:
+2. In the Checkmarx AST plugin section, enter the following details:
 
     |         Item                 |          Value                |
     |:----------------------       |:-----------------------       |
@@ -76,6 +76,7 @@ The Checkmarx Settings form opens.
 
     ![Configuration Finished](./assets/images/cx_scan_results.png "Configuration Finished")
 
+
 ## Clone the project to your local machine
 1. Clone our example scanned project to your local machine.
 
@@ -88,11 +89,36 @@ The Checkmarx Settings form opens.
 
 3.  You may be prompted by VS Code asking if you trust the developers. We will not be executing any of this projects code and will just be reviewing the source, so you can safely accept. Once you complete the labs, you can safely delete the project.
 
-    ![VS Code Trust Project](./assets/images/vscode_trust.png "VS Code Trust Project")
+    ![VS Code Trust Project](./assets/images/vscode_trust.png "VS Code Trust Project")'
 
+
+## (Optional) Install Docker on your local machine
+
+{: .note }
+Docker is required to be installed on your local machine if you wish to use the Checkmarx Infrastructure-as-code (IaC)/KICS autoremediation feature. 
+
+### Windows / Mac Users
+
+The easiest way to get Docker installed on a Windows or Mac machine is to do so with [Docker Desktop](https://www.docker.com/products/docker-desktop/).
+
+{: .note }
+Prior to installing Docker Desktop on your local machine, ensure you adhere to [Docker's Subscription and Licensing terms](https://www.docker.com/pricing/faq/).
+
+1. In this example, we will be installing docker on our Ubuntu Linux machine.  Use the following command to install docker:
+
+        sudo apt install docker.io
+
+    ![ubuntu docker](./assets/images/docker_install.png "Docker Install")
+
+2. Review the install requirements and dependent packages and type 'y' when ready
+
+3. If you are running on Linux, you will need to ensure that your user can manage docker as non-root.  The easiest way to do this is to add your user to the docker group:
+
+    sudo gpasswd -a $USER docker
 
 ## Key Takeaways
 - Checkmarx has IDE plugins for all major IDEs
 - The Checkmarx One VS Code plugin is available within the Visual Studio Marketplace and is distinct from the Checkmarx SAST plugin
 - The Checkmarx One VS Code plugin can be connected to a Checkmarx One instance by configuring four fields
 - Checkmarx Scan results can be reviewed all within the IDE
+- Docker is required for IaC/KICS autoremediation within VS Code
