@@ -67,9 +67,10 @@ Within our __totallysecureapp__ project, we have a number of infrastructure-as-c
     - Line: Apply all available fixes
     - File: Apply all available fixes
 
-    !["KICS Quick Fix"](./assets/images/quick_fix.png "KICS Quick Fix")
 
 4. Choose __File: Apply all available fixes__ to apply all of the KICS recommendations
+
+    !["KICS Quick Fix"](./assets/images/quick_fix.png "KICS Quick Fix")
 
 5. KICS will automatically apply the recommendations within the file and you should see the underline highlighting disappear
 

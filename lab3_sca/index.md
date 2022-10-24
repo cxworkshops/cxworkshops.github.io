@@ -27,11 +27,11 @@ Within the Checkmarx VS Code plugin, ensure you are connected to the project, br
 
     ![SCA High Results](./assets/images/sca_high_results.png "SCA High Results")
 
-2. Expand the Maven-mysql:mysql-connector-java-5.1.26 result
+2. Expand the __Maven-mysql:mysql-connector-java-5.1.26__ result
 
 3. Choose __CVE-2018-3258__ and review the description within the pane opened within VS Code.
 
-    Vulnerability in the MySQL Connectors component of Oracle MySQL (subcomponent: Connector/J). Supported versions that are affected are 8.0.12 and prior. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Connectors. Successful attacks of this vulnerability can result in takeover of MySQL Connectors. CVSS 3.0 Base Score 8.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).
+        Vulnerability in the MySQL Connectors component of Oracle MySQL (subcomponent: Connector/J). Supported versions that are affected are 8.0.12 and prior. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Connectors. Successful attacks of this vulnerability can result in takeover of MySQL Connectors. CVSS 3.0 Base Score 8.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).
 
 4. We can see the recommended remediation is to __Upgrade To Version 8.0.28__. Additionally there is a link to the vulnerable package path, which is found within deploy/pom.xml.  Click on __deploy/pom.xml__.
 
@@ -52,7 +52,7 @@ Within the Checkmarx VS Code plugin, ensure you are connected to the project, br
 
 3. In addition to DevHub, Checkmarx also can provide email notifications of when new vulnerabilities arise related to previously discovered packages within your projects
 
-    ~[SCA Email](./assets/images/sca_email.png "SCA Email")
+    ![SCA Email](./assets/images/sca_email.png "SCA Email")
 
 
 ## Key Takeaways
