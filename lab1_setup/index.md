@@ -114,7 +114,7 @@ Prior to installing Docker Desktop on your local machine, ensure you adhere to [
 
 3. If you are running on Linux, you will need to ensure that your user can manage docker as non-root.  The easiest way to do this is to add your user to the docker group:
 
-    sudo gpasswd -a $USER docker
+        sudo gpasswd -a $USER docker
 
 ## Key Takeaways
 - Checkmarx has IDE plugins for all major IDEs
