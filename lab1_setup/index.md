@@ -53,20 +53,29 @@ The Checkmarx Settings form opens.
 
 2. In the Checkmarx AST plugin section, enter the following details:
 
-    |         Item                 |          Value                |
-    |:----------------------       |:-----------------------       |
-    | Checkmarx AST: Api Key       | \<provided by proctor\>       |
-    | Checkmarx AST: Base Auth Uri | https://deu.iam.checkmarx.net |
-    | Checkmarx AST: Base Uri      | https://deu.ast.checkmarx.net |
-    | Checkmarx AST: Tenant        | devworkshop-canary            |
+
+    |         Item                          |          Value                |
+    |:----------------------                |:-----------------------       |
+    | Checkmarx KICS: Additional Parameters | <leave blank>                 |
+    | Checkmarx AST: Additional Parameters  | <leave blank>                 |
+    | Checkmarx AST: Api Key       | \<provided by proctor\>                |
 
 3. Once entered, the Checkmarx plugin will authenticate to the Checkmarx One tenant
+
+4. Close the Plugin Settings Screen
 
 ## Connect to a project
 
 1. Mouse-over the __Project:__ field in the left pane, click the pencil icon, then select the project name __cxworkshops/totallysecureapp__ that appears in the middle search bar
 
     ![Select Project](./assets/images/cx_select_project.png "Select the Project")
+
+    {: note }
+    > Since Checkmarx plugin v2.0.11 release, only the AST/One API Key is required to connect the plugin to a Checkmarx One tenant.  If you see a 404 error within VSCode when attempting to connect to a project, it may be because environment variables are overriding the Uri/tenant names from the API key (cx_base_auth_uri, cx_base_uri, cx_tenant).  These variables are set if you've ever connected to Checkmarx One via the CLI. This can be fixed by deleting the checkmarxcli.yaml file if it exists on your machine.
+    >
+    > For Mac OSX and Linux, this file can be found at ~/.checkmarx/checkmarxcli.yaml
+    >
+    > For Windows, this file can be found at %UserProfile%\\.checkmarx\\checkmarxcli.yaml
 
 2. Mouse-over the __Branch:__ field in the left pane, click the pencil icon, then select the branch __master__ that appears in the middle search bar
 

@@ -13,7 +13,7 @@ title: Lab 2 - Custom Code Analysis
 ## Introduction
 SAST, or Static Application Security Testing, enables developers and security teams to scan application source code to find, index, and enumerate weaknesses that lead to vulnerabilities within the application.  Checkmarx supports [over 30 languages and frameworks](https://checkmarx.com/resource/documents/en/34965-46283-supported-code-languages-and-frameworks-for-9-5-0.html) and leverages a set of configurable scan presets, which affords AppSec and dev teams the ability to hone the results and only focus on the results they care about.
 
-Checkmarx SAST scans source code, not binaries, allowing teams to scan incomplete or partial code, affording an interative approach to security. And because Checkmarx One integrates seamlessly with SCMs (GitHub, GitLab, BitBucket, Azure), we can automatically trigger scans during push and pull request events, eliminating the need to manually trigger or schedule scans
+Checkmarx SAST scans source code, not binaries, allowing teams to scan incomplete or partial code, affording an iterative approach to security. And because Checkmarx One integrates seamlessly with SCMs (GitHub, GitLab, BitBucket, Azure), we can automatically trigger scans during push and pull request events, eliminating the need to manually trigger or schedule scans
 
 Out-of-the-box, SAST on Checkmarx One uses an optimized preset.  This preset contains a subset of vulnerabilities that the Checkmarx AppSec Accelerator team, through years of research and first-hand experience with our customers, considers to be an optimal balance between identifying critical vulnerabilities while minimizing false positives.
 
