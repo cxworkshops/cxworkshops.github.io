@@ -6,7 +6,7 @@ title: Lab 1 - Environment Setup
 # Lab 1: Environment Setup
 
 ## Introduction
-In this lab, we will focus on configuring our environment using an IDE and the Checkmarx plugin.  While Checkmarx supports multiple IDEs, for these labs we will be leverage Microsoft Visual Studio Code, as it is free and commonly used.  Checkmarx has integrated plugins with the following IDEs:
+In this lab, we will focus on configuring our environment using an IDE and the Checkmarx plugin.  While Checkmarx supports multiple IDEs, for these labs we will be leveraging Microsoft Visual Studio Code, as it is free and commonly used.  Checkmarx has integrated plugins with the following IDEs:
 
 * Eclipse
 * IntelliJ
@@ -85,7 +85,7 @@ The Checkmarx Settings form opens.
     {: .note }
     You will need __git__ installed on your local machine if it is not already installed. You can use [this guide ](https://github.com/git-guides/install-git) to see the steps for your operating system
 
-2. Within VS Code, select File > Open Folder, and select the directory totallysecureapp.
+2. Within VS Code, select __File__ > __Open Folder__, and select the directory __totallysecureapp__.
 
 3.  You may be prompted by VS Code asking if you trust the developers. We will not be executing any of this projects code and will just be reviewing the source, so you can safely accept. Once you complete the labs, you can safely delete the project.
 
