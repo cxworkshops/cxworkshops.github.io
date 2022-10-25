@@ -6,8 +6,10 @@ title: Lab 4 - Malicious Package Detection
 # Lab 4: Malicious Package Detection
 In this lab, we will explore some examples of Software Supply Chain (SCS) findings, and how to remediate them. 
 
-## Prerequisites
-We will be using our __totallysecureapp__ project, which is available at https://github.com/cxworkshops/totallysecureapp. If you have not already done so, clone the project to your local machine, as defined in [Lab 1](../lab1_setup/).
+{: .important-title }
+> Prerequisites
+>
+> We will be using our __totallysecureapp__ project, which is available at https://github.com/cxworkshops/totallysecureapp. If you have not already done so, clone the project to your local machine, as defined in [Lab 1](../lab1_setup/).
 
 {: .note }
 While we are reviewing malicious packages in this lab, we won't be executing any of the project code (and for that matter, even if you did run the project, the malicious packages aren't actually used within the project), so there is no risk of introducing malicious packages into your system.

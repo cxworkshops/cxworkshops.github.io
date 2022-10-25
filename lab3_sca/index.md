@@ -6,8 +6,10 @@ title: Lab 3 - 3rd Party Code Analysis
 # Lab 3: 3rd Party Code Analysis
 In this lab, we will explore some examples of Software Composition Analysis (SCA) vulnerabilities, and how to remediate them. 
 
-## Prerequisites
-We will be using our __totallysecureapp__ project, which is available at https://github.com/cxworkshops/totallysecureapp. If you have not already done so, clone the project to your local machine, as defined in [Lab 1](../lab1_setup/).
+{: .important-title }
+> Prerequisites
+>
+> We will be using our __totallysecureapp__ project, which is available at https://github.com/cxworkshops/totallysecureapp. If you have not already done so, clone the project to your local machine, as defined in [Lab 1](../lab1_setup/).
 
 ## Introduction
 
