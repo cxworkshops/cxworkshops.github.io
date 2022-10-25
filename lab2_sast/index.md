@@ -19,8 +19,21 @@ Out-of-the-box, SAST on Checkmarx One uses an optimized preset.  This preset con
 
 In addition to presets, Checkmarx SAST supports the ability to customize queries, allowing organizations to add or modify queries to help reduce false positives, add queries for custom sanitizers, or to resolve false negatives.
 
+## Open the TotallySecureApp Project
+
+1. Within VS Code, navigate to __File__ > __Open Folder...__ and select the folder to which you had previously cloned the totallysecureapp. (e.g. ~/totallysecureapp or %USERPROFILE%\\totallysecureapp)
+
+    ![VS Code Open Folder](./assets/images/vscode_openfolder.png "VS Code Open Folder")
+
+2. VS Code will open the __totallysecureapp__ folder within the explorer, where you can see the project files
+
+    ![VS Code Explorer](./assets/images/vscode_explorer.png "VS Code Explorer")
+
 ## Reviewing SAST Results
+
 1. Within the VS Code Checkmarx plugin, expand the latest Scan result.
+
+    ![VS Code Plugin](./assets/images/vscode_cx_plugin.png "VS Code Plugin")
 
 2. Click the __M__, __L__, and __I__ icons to filter out everything other than the __HIGH__ results and select the scan result __Reflected XSS All Clients (/OpenRedirectController.java:32)__.
 

@@ -56,8 +56,8 @@ The Checkmarx Settings form opens.
 
     |         Item                          |          Value                |
     |:----------------------                |:-----------------------       |
-    | Checkmarx KICS: Additional Parameters | <leave blank>                 |
-    | Checkmarx AST: Additional Parameters  | <leave blank>                 |
+    | Checkmarx KICS: Additional Parameters | \<leave blank\>                 |
+    | Checkmarx AST: Additional Parameters  | \<leave blank\>                 |
     | Checkmarx AST: Api Key       | \<provided by proctor\>                |
 
 3. Once entered, the Checkmarx plugin will authenticate to the Checkmarx One tenant
@@ -70,7 +70,7 @@ The Checkmarx Settings form opens.
 
     ![Select Project](./assets/images/cx_select_project.png "Select the Project")
 
-    {: note }
+    {: .note }
     > Since Checkmarx plugin v2.0.11 release, only the AST/One API Key is required to connect the plugin to a Checkmarx One tenant.  If you see a 404 error within VSCode when attempting to connect to a project, it may be because environment variables are overriding the Uri/tenant names from the API key (cx_base_auth_uri, cx_base_uri, cx_tenant).  These variables are set if you've ever connected to Checkmarx One via the CLI. This can be fixed by deleting the checkmarxcli.yaml file if it exists on your machine.
     >
     > For Mac OSX and Linux, this file can be found at ~/.checkmarx/checkmarxcli.yaml
@@ -87,16 +87,21 @@ The Checkmarx Settings form opens.
 
 
 ## Clone the project to your local machine
-1. Clone our example scanned project to your local machine.
+
+1. Open a terminal or command prompt and navigate to a directory or folder you'll be able to easily find (e.g. ~/ on Mac OSX or Linux or %UserProfile%/)
+
+    ~[Terminal](./assets/images/terminal_dir.png "Terminal")
+
+2. Clone our example scanned project to your local machine.
 
         git clone https://github.com/cxworkshops/totallysecureapp.git
 
     {: .note }
     You will need __git__ installed on your local machine if it is not already installed. You can use [this guide ](https://github.com/git-guides/install-git) to see the steps for your operating system
 
-2. Within VS Code, select __File__ > __Open Folder__, and select the directory __totallysecureapp__.
+3. Within VS Code, select __File__ > __Open Folder__, and select the directory __totallysecureapp__.
 
-3.  You may be prompted by VS Code asking if you trust the developers. We will not be executing any of this projects code and will just be reviewing the source, so you can safely accept. Once you complete the labs, you can safely delete the project.
+4.  You may be prompted by VS Code asking if you trust the developers. We will not be executing any of this projects code and will just be reviewing the source, so you can safely accept. Once you complete the labs, you can safely delete the project.
 
     ![VS Code Trust Project](./assets/images/vscode_trust.png "VS Code Trust Project")'
 
