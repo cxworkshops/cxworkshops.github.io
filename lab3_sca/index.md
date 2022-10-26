@@ -62,4 +62,4 @@ Within the Checkmarx VS Code plugin, ensure you are connected to the project, br
 
 - Checkmarx is constantly monitoring, testing, and updating its database for 3rd party packages for tracking vulnerabilities
 - Checkmarx SCA can automatically email you or your security champion when new vulnerabilities are detected within previously identified packages
-- Vulnerability data is available in a number of areas, including the Checkmarx One VS Code plugin, [Checkmarx DevHub Vulnerabilities Databse](https://devhub.checkmarx.com/advisories/), or within the Checkmarx One web interface itself
+- Vulnerability data is available in a number of areas, including the Checkmarx One VS Code plugin, [Checkmarx DevHub Vulnerabilities Database](https://devhub.checkmarx.com/advisories/), or within the Checkmarx One web interface itself
