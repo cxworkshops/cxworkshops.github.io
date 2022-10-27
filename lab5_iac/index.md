@@ -85,5 +85,5 @@ Within our __totallysecureapp__ project, we have a number of infrastructure-as-c
 - KICS can be used independently of Checkmarx One, where scans can be performed directly from within the user's environment
 - The Checkmarx One plugin can be automatically configured to perform a KICS scan when a recognized IaC file is opened or saved within VS Code
 - KICS can automatically highlight and enumarate findings directly within VS Code
-- The user has the option of applying recommended remediations automatically, whehter line-by-line or across the whole file
+- The user has the option of applying recommended remediations automatically, whether line-by-line or across the whole file
 
