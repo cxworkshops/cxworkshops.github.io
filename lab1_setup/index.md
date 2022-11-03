@@ -133,6 +133,6 @@ Prior to installing Docker Desktop on your local machine, ensure you adhere to [
 ## Key Takeaways
 - Checkmarx has IDE plugins for all major IDEs
 - The Checkmarx One VS Code plugin is available within the Visual Studio Marketplace and is distinct from the Checkmarx SAST plugin
-- The Checkmarx One VS Code plugin can be connected to a Checkmarx One instance by configuring four fields
+- The Checkmarx One VS Code plugin can be connected to a Checkmarx One instance by configuring one fields
 - Checkmarx Scan results can be reviewed all within the IDE
 - Docker is required for IaC/KICS autoremediation within VS Code
