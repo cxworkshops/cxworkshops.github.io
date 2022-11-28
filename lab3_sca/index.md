@@ -56,6 +56,10 @@ Within the Checkmarx VS Code plugin, ensure you are connected to the project, br
 
     ![SCA Email](./assets/images/sca_email.png "SCA Email")
 
+    {: .note }
+    Checkmarx has partnered with JetBrains to offer our SCA scan findings free for JetBrains IntelliJ IDEA Ultimate users.  All you have to do is click on our bundled plug-in within your IntelliJ IDEA Ultimate workspace, and you can start scanning for open source threats right away. To learn more, checkout the [Checkmarx and Jetbrains Bundled Plugin](https://checkmarx.com/why-checkmarx/checkmarx-and-jetbrains/)
+        ![JetBrains IntelliJ IDEA Ultimate Package Checker Plugin](./assets/images/JetBrains_plugin.png "JetBrains IntelliJ IDEA Ultimate Plugin")
+
 
 ## Key Takeaways
 
