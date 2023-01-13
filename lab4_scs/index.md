@@ -47,7 +47,7 @@ SCS results are included in the Checkmarx SCA scan engine.  Within the Checkmarx
 
 ### RepoJacking
 
-1. Within the Checkmarx Plugin, under the sca > HIGH results, expand the __Npm-ua-parser-js-0.7.29__ result and select __Cxbd45c2b9-4622__
+1. Within the Checkmarx Plugin, under the sca > Vulnerability > HIGH results, expand the __Npm-ua-parser-js-0.7.29__ result and select __Cxbd45c2b9-4622__
 
     ![ua-parser](./assets/images/ua-parser.png "ua-parser")
 
