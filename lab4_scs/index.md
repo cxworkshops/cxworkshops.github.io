@@ -23,12 +23,10 @@ SCS results are included in the Checkmarx SCA scan engine.  Within the Checkmarx
 
 ### TypoSquatting
 
-1. Navigate to the Checkmarx Plugin in the left menu of VS Code, expand the sca results, and HIGH results
+1. Navigate to the Checkmarx Plugin in the left menu of VS Code, expand sca > Malicious Package > HIGH results
 
-    {: .note }
-    SCS Malicious Packages will always be returned in SCA HIGH results
 
-    ![SCA High Results](./assets/images/sca_high_results.png "SCA High Results")
+    ![SCA High Results](./assets/images/scs_high_results.png "SCA High Results")
 
 2. Expand the Npm-momnet-2.29.1 result, and select the __Cxa45b0853-bee2__ result. Note how a new pane opens at the far right with a description of the malicious package.
 
