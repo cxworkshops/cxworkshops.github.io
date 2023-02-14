@@ -19,6 +19,13 @@ Out-of-the-box, SAST on Checkmarx One uses an optimized preset.  This preset con
 
 In addition to presets, Checkmarx SAST supports the ability to customize queries, allowing organizations to add or modify queries to help reduce false positives, add queries for custom sanitizers, or to resolve false negatives.
 
+### Fast vs Accurate
+Often Custom Code Analysis (SAST) vendors claim they are "fastest" when scanning source code, but this is almost always at the expense of accuracy. Rather than focusing on scan speed, Checkmarx focuses on accuracy _at speed_, ensuring we have the highest "True Positive" (TP) within our findings.  Afterall, if you're not finding vulnerabilities, how can you fix them (e.g. False Negatives)? Depending on the project size and the code changes, our scan engine also supports Incremental Scans, so we only scan the changed code.
+
+Sure, speed is important, but you can think of speed-focused SAST scans as this security guard checking folks:
+
+    ![Fast Security Scan](./assets/images/fast_scan.gif "Fast Security Scan")
+
 ## Open the TotallySecureApp Project
 
 1. Within VS Code, navigate to __File__ > __Open Folder...__ and select the folder to which you had previously cloned the totallysecureapp. (e.g. ~/totallysecureapp or %USERPROFILE%\\totallysecureapp)
