@@ -24,7 +24,8 @@ Often Custom Code Analysis (SAST) vendors claim they are "fastest" when scanning
 
 Sure, speed is important, but you can think of speed-focused SAST scans as this security guard checking folks:
 
-    ![Fast Security Scan](./assets/images/fast_scan.gif "Fast Security Scan")
+  ![Fast Security Scan](./assets/images/fast_scan.gif "Fast Security Scan")
+
 
 ## Open the TotallySecureApp Project
 
