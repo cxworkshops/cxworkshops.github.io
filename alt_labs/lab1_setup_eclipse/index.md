@@ -90,7 +90,7 @@ The next step is to import the workshop project “TotallySecureApp” into Ecli
     ![Checkmarx AST Scan](./assets/images/eclipse_showview_scan.png "Checkmarx AST Scan")
 3.	The Checkmarx AST Scan panel will open at the bottom of the Eclipse window.
     ![Checkmarx Scan Panel](./assets/images/eclipse_cx_scan.png "Checkmarx Scan Panel")
-4.	Select the **TotallySecureApp** project and **.unknown** branch; the latest scan will automatically populate and a results tree will appear. The results tree can be expanded to view results from different AST scanners (e.g., SAST, SCA).
+4.	Select the **TotallySecureApp** project and **master** branch; the latest scan will automatically populate and a results tree will appear. The results tree can be expanded to view results from different AST scanners (e.g., SAST, SCA).
     ![Checkmarx Scan Results](./assets/images/eclipse_cx_results.png "Checkmarx Scan Results")
 5.	Group By fields can be added by clicking the three dots on the Checkmarx AST menu. Additional filtering changes can also be made via this menu.
     ![Checkmarx Results Filter](./assets/images/eclipse_results_filter.png "Checkmarx Results Filter")
