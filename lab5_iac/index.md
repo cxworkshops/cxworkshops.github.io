@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Lab 5 - Infrastructure-as-Code Analysis
+nav_order: 1
 ---
 
 # Lab 5: Infrastructure-as-Code Analysis

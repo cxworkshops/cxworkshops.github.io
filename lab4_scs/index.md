@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Lab 4 - Malicious Package Detection
+nav_order: 1
 ---
 
 # Lab 4: Malicious Package Detection
