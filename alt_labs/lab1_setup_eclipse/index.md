@@ -2,7 +2,7 @@
 layout: default
 title: Lab 1 - Environment Setup (Eclipse)
 parent: Alternative Labs
-nav_order: 2
+nav_order: 6
 ---
 
 # Lab 1: Environment Setup
