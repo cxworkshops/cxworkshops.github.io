@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab 1 - Environment Setup
-nav_order: 1
+nav_order: 2
 ---
 
 # Lab 1: Environment Setup

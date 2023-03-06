@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab 3 - 3rd Party Code Analysis
-nav_order: 1
+nav_order: 2
 ---
 
 # Lab 3: 3rd Party Code Analysis

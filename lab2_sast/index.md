@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab 2 - Custom Code Analysis
-nav_order: 1
+nav_order: 2
 ---
 
 # Lab 2: Custom Code Analysis
