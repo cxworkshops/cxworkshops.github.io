@@ -6,17 +6,17 @@ title: Lab 1 - Environment Setup (Eclipse)
 # Lab 1: Environment Setup
 
 ## Introduction
-In this lab, we will focus on configuring our environment using an IDE and the Checkmarx plugin.  While Checkmarx supports multiple IDEs, for these labs we will be leveraging Microsoft Visual Studio Code, as it is free and commonly used.  Checkmarx has integrated plugins with the following IDEs:
+In this lab, we will focus on configuring our environment using an IDE and the Checkmarx plugin.  While Checkmarx supports multiple IDEs, we will be leveraging Eclipse in this lab.  Checkmarx has integrated plugins with the following IDEs:
 
-* Eclipse
+* Eclipse **(Currently only Eclipse 2022 is supported)**
 * IntelliJ
 * Visual Studio
 * VS Code
 
-To learn more, checkout [Checkmarx Integrations with Popular IDEs](https://checkmarx.com/why-checkmarx/integrations/checkmarx-integrations-with-ides/)
+To learn more, checkout <a href="https://checkmarx.com/why-checkmarx/integrations/checkmarx-integrations-with-ides/" target="_blank">Checkmarx Integrations with Popular IDEs</a>
 
 {: .warning }
-For these labs, we are using a known vulnerable Java project based heavily on [EasyBuggy](https://github.com/k-tamura/easybuggy) to demonstrate vulnerability detection and remediation capabilities.  Note that if this application is run, this Java application can result in system crashes as a result of memory leaks, deadlock, JVM crashes, etc.  In these labs, we are only using Checkmarx solutions that scan source code, thus there is no reason or need to run this project and __it is not recommended to do so__. If you do wish to run the project, do so at your own risk. It is HIGHLY recommended you do so in a sandbox environment (e.g. within a VM)
+For these labs, we are using a known vulnerable Java project based heavily on <a href="https://github.com/k-tamura/easybuggy" target="blank">EasyBuggy</a> to demonstrate vulnerability detection and remediation capabilities.  Note that if this application is run, this Java application can result in system crashes as a result of memory leaks, deadlock, JVM crashes, etc.  In these labs, we are only using Checkmarx solutions that scan source code, thus there is no reason or need to run this project and __it is not recommended to do so__. If you do wish to run the project, do so at your own risk. It is HIGHLY recommended you do so in a sandbox environment (e.g. within a VM)
 
 ## Install Eclipse
 The first step is to install Eclipse, if you don't already have it installed.
@@ -24,12 +24,12 @@ The first step is to install Eclipse, if you don't already have it installed.
 {: .note }
 If you already have Eclipse installed, you can skip this section. When we are done with the lab, you can always uninstall/disable the Checkmarx plugin
 
-1.	Navigate to [https://www.eclipse.org/ide/]https://www.eclipse.org/ide/ to download the Eclipse installer for your operating system.
+1.	Navigate to <a href="https://www.eclipse.org/ide/" target="_blank">https://www.eclipse.org/ide/</a> to download the Eclipse installer for your operating system.
 2.	Run the installer.
 
 
 ## Install the Checkmarx Extension
-Once Eclipse is installed, we need to install the Checkmarx IDE extension. The Checkmarx Eclipse Extension is available on the [Eclipse Marketplace](https://marketplace.eclipse.org/content/checkmarx-ast-plugin). You can initiate the installation directly from the Eclipse Marketplace.
+Once Eclipse is installed, we need to install the Checkmarx IDE extension. The Checkmarx Eclipse Extension is available on the <a href="https://marketplace.eclipse.org/content/checkmarx-ast-plugin" target="_blank">Eclipse Marketplace</a>. You can initiate the installation directly from the Eclipse Marketplace.
 
 1. Open Eclipse
 2. Within the Eclipse console, click **Help > Eclipse Marketplace...**
