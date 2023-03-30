@@ -57,9 +57,13 @@ Within the Checkmarx VS Code plugin, ensure you are connected to the project, br
 
     ![SCA Email](./assets/images/sca_email.png "SCA Email")
 
-    {: .note }
-    Checkmarx has partnered with JetBrains to offer our SCA scan findings free for JetBrains IntelliJ IDEA Ultimate users.  All you have to do is click on our bundled plug-in within your IntelliJ IDEA Ultimate workspace, and you can start scanning for open source threats right away. To learn more, checkout the [Checkmarx and Jetbrains Bundled Plugin](https://checkmarx.com/why-checkmarx/checkmarx-and-jetbrains/)
-        ![JetBrains IntelliJ IDEA Ultimate Package Checker Plugin](./assets/images/JetBrains_plugin.png "JetBrains IntelliJ IDEA Ultimate Plugin")
+## Integrated SCA Scan Findings in the IDE
+Checkmarx has partnered with JetBrains to offer our SCA scan findings free for JetBrains IntelliJ IDEA Ultimate users.  All you have to do is click on our bundled plug-in within your IntelliJ IDEA Ultimate workspace, and you can start scanning for open source threats right away. To learn more, checkout the [Checkmarx and Jetbrains Bundled Plugin](https://checkmarx.com/why-checkmarx/checkmarx-and-jetbrains/)
+    ![JetBrains IntelliJ IDEA Ultimate Package Checker Plugin](./assets/images/JetBrains_plugin.png "JetBrains IntelliJ IDEA Ultimate Plugin")
+
+Additionally, we have recently introduced similar functionality within within the VS Code plugin.  No subscription or API key is required, you can simply hit the play button in the lower-left quadrant to perform a scan of project 3rd party package manifests.
+    ![VS Code Checkmarx One SCA Autoscan](./assets/images/vscode_sca_autoscan.png "VS Code Checkmarx SCA AutoScan")
+    
 
 
 ## Key Takeaways
@@ -68,3 +72,4 @@ Within the Checkmarx VS Code plugin, ensure you are connected to the project, br
 - Checkmarx is constantly monitoring, testing, and updating its database for 3rd party packages for tracking vulnerabilities
 - Checkmarx SCA can automatically email you or your security champion when new vulnerabilities are detected within previously identified packages
 - Vulnerability data is available in a number of areas, including the Checkmarx One VS Code plugin, [Checkmarx DevHub Vulnerabilities Database](https://devhub.checkmarx.com/advisories/), or within the Checkmarx One web interface itself
+- Checkmarx provides SCA scan findings for free within JetBrains IntelliJ IDEA as well as VS Code.
